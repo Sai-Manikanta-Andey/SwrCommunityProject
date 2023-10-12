@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #e76f51;
+    color: orange;
     overflow-x: clip;
 }
 nav{
