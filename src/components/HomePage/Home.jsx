@@ -11,7 +11,7 @@ function Home() {
           className="left"
           initial={{ y: "2rem", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          transition={{ duration: 2, type: "spring" }}
         >
           <div className="title">
             <h1 className="welcome-title primaryText">
@@ -40,10 +40,9 @@ function Home() {
           </div>
         </motion.div>
         <motion.div
-          className="right"
-          initial={{ y: "-2rem", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          initial={{ x: "7rem", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 2, type: "spring" }}
         >
           <div className="image-container">
             <img
