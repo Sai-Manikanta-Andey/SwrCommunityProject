@@ -13,7 +13,7 @@ function Social() {
         <div className="social-title">
           <h3 className="component-heading social-title-heading">Social</h3>
           <h3 className="title-social secondaryText">
-            These are our social medial handles
+            These are our social media handles
           </h3>
         </div>
         <div className="social-icons-images-container">
