@@ -19,7 +19,7 @@ function Header() {
 
 
   return (
-    <div className="nav-container">
+    <div className="nav-container maxWidth">
       <header className="paddings1">
         <div className="nav-logo">
           <img src="swrlogo.png" alt="logo" width={90} className='logo' />
