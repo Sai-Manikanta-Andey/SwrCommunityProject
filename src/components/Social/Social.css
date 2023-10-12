@@ -1,0 +1,64 @@
+.title-social {
+  text-align: center;
+}
+
+.social-icons-images-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.social-title {
+  margin-bottom: 2rem;
+}
+
+.social-left {
+  display: flex;
+  justify-content: space-evenly;
+  
+  gap: 1rem;
+}
+
+.icon:hover {
+  scale: 1.1;
+  transition: all 300ms ease-in;
+}
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.social-icon>a{
+  font-size: 1.4rem;
+}
+
+.all-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.react-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  
+}
+
+.details-about-dc{
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .icon {
+    font-size: 3rem;
+  }
+  .social-icon>a{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .social-icons-images-container{
+    flex-wrap: wrap;
+  }
+}

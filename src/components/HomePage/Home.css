@@ -1,0 +1,50 @@
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlight{
+    display: inline-block;
+    color: #3a86ff;
+    padding: 0 .4rem;
+}
+
+.alignCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.points{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.welcome-title{
+    text-align: center;
+}
+.intro-title{
+    text-align: center;
+}
+@media (max-width:640px) {
+    .homepic{
+        width: 320px;
+    }
+}

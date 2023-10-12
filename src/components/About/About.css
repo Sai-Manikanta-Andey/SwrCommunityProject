@@ -1,0 +1,30 @@
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.attention{
+    display: flex;
+    flex-direction: column;
+}
+.about-para{
+    margin-top: 4rem;
+}
+
+@media (max-width:1024px) {
+    .flex{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1024px) {
+    .about-para{
+        margin-top: .8rem;
+    }
+}
