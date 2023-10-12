@@ -40,8 +40,8 @@ function Home() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ x: "7rem", opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          initial={{ y: "7rem", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 2, type: "spring" }}
         >
           <div className="image-container">
