@@ -27,7 +27,7 @@ function Social() {
                   target="_blank"
                   className="link"
                 >
-                  Discord <FaLink fontSize={18} />
+                  Discord <FaLink fontSize={14} />
                 </a>
               </div>
 
@@ -40,15 +40,18 @@ function Social() {
                   target="_blank"
                   className="link"
                 >
-                  Telegram <FaLink fontSize={18} />
+                  Telegram <FaLink fontSize={14} />
                 </a>
               </div>
               <div className="whatsapp social-icon">
                 <div className="react-icon">
                   <FaInstagramSquare fontSize={80} className="icon" />
                 </div>
-                <a href="https://www.instagram.com/swr_community/" target="_blank" >
-                  Instagram <FaLink fontSize={18} />
+                <a
+                  href="https://www.instagram.com/swr_community/"
+                  target="_blank"
+                >
+                  Instagram <FaLink fontSize={14} />
                 </a>
               </div>
             </div>
