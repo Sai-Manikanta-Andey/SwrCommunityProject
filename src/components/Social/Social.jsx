@@ -50,8 +50,9 @@ function Social() {
                 <a
                   href="https://www.instagram.com/swr_community/"
                   target="_blank"
+                  className="link"
                 >
-                  Instagram <FaLink fontSize={14} className="link" />
+                  Instagram <FaLink fontSize={14} />
                 </a>
               </div>
             </div>
