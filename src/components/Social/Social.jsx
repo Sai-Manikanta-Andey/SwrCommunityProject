@@ -1,10 +1,9 @@
-import React from 'react'
-import './Social.css'
-import {FaWhatsappSquare} from "react-icons/fa"
+import React from "react";
+import "./Social.css";
+import { FaDiscord } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import {motion} from "framer-motion"
+import { FaLink } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
-
 
 function Social() {
   return (
@@ -21,13 +20,14 @@ function Social() {
             <div className="social-left secondaryText">
               <div className="whatsapp social-icon">
                 <div className="react-icon">
-                  <FaWhatsappSquare fontSize={80} className="icon" />
+                  <FaDiscord fontSize={80} className="icon" />
                 </div>
                 <a
-                  href="https://chat.whatsapp.com/KiyXJN78JnJ1nluUtNdmky"
+                  href="https://discord.com/invite/FXnswDq2xm"
                   target="_blank"
+                  className="link"
                 >
-                  Whatsapp
+                  Discord <FaLink fontSize={18} />
                 </a>
               </div>
 
@@ -35,19 +35,20 @@ function Social() {
                 <div className="react-icon">
                   <BsTelegram fontSize={80} className="icon" />
                 </div>
-                <a href="https://t.me/+EpZl1pGlhl81MTA1" target="_blank">
-                  Telegram
+                <a
+                  href="https://t.me/+EpZl1pGlhl81MTA1"
+                  target="_blank"
+                  className="link"
+                >
+                  Telegram <FaLink fontSize={18} />
                 </a>
               </div>
               <div className="whatsapp social-icon">
                 <div className="react-icon">
-                  <FaInstagramSquare fontSize={80} className="icon"  />
+                  <FaInstagramSquare fontSize={80} className="icon" />
                 </div>
-                <a
-                  href="https://instagram.com/off.campusjobs?igshid=NjIwNzIyMDk2Mg=="
-                  target="_blank"
-                >
-                  Instagram
+                <a href="https://www.instagram.com/swr_community/" target="_blank" >
+                  Instagram <FaLink fontSize={18} />
                 </a>
               </div>
             </div>
@@ -76,4 +77,4 @@ function Social() {
   );
 }
 
-export default Social
+export default Social;
