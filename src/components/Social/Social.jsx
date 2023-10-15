@@ -3,8 +3,8 @@ import "./Social.css";
 import { FaDiscord } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
-import { BsTelegram } from "react-icons/bs";
-
+import { FaSquareWhatsapp } from "react-icons/fa6"
+ 
 function Social() {
   return (
     <div className="social-wrapper" id="social">
@@ -33,14 +33,14 @@ function Social() {
 
               <div className="whatsapp social-icon">
                 <div className="react-icon">
-                  <BsTelegram fontSize={80} className="icon" />
+                  <FaSquareWhatsapp fontSize={80} className="icon" />
                 </div>
                 <a
-                  href="https://t.me/+EpZl1pGlhl81MTA1"
+                  href="https://chat.whatsapp.com/KiyXJN78JnJ1nluUtNdmky"
                   target="_blank"
                   className="link"
                 >
-                  Telegram <FaLink fontSize={14} />
+                  Whatsapp <FaLink fontSize={14} />
                 </a>
               </div>
               <div className="whatsapp social-icon">
