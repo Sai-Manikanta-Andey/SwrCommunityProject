@@ -71,7 +71,7 @@ function Social() {
                 src="/social-min.png"
                 alt="social"
                 width={500}
-                className="homepic"
+                className="social-pic"
               />
             </div>
           </div>

@@ -21,7 +21,7 @@ function Home() {
           </div>
           <div className="intro">
             <h3 className="intro-title secondaryText">
-              AS A SENIOR & A FRIEND
+              As a senior & a friend
             </h3>
             <div className="points">
               <p className="firstPoint alignCenter thirdText">
@@ -48,12 +48,13 @@ function Home() {
             <img
               src="./pic.png"
               alt="homepic"
-              width={500}
+              width={450}
               className="homepic"
             />
           </div>
         </motion.div>
       </div>
+      
     </div>
   );
 }

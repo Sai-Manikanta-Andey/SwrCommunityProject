@@ -1,6 +1,3 @@
-.title-social {
-  text-align: center;
-}
 
 .social-icons-images-container {
   display: flex;
@@ -14,8 +11,7 @@
 
 .social-left {
   display: flex;
-  justify-content: space-evenly;
-  
+ justify-content: space-between;
   gap: 1rem;
 }
 
@@ -64,8 +60,11 @@ a:hover{
     font-size: 3rem;
   }
   .social-icon>a{
-    font-size: 1rem;
+    font-size: .85rem;
   }
+}
+.social-pic{
+  width: 450px;
 }
 
 @media (max-width:1024px) {
@@ -73,3 +72,9 @@ a:hover{
     flex-wrap: wrap;
   }
 }
+@media (max-width:768px) {
+  .social-pic{
+    width: 290px;
+  }
+}
+
